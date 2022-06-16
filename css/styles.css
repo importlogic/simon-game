@@ -6,7 +6,7 @@ body{
     padding: 40px;
     font-family: 'Press Start 2P', cursive;
     color: #fef2bf;
-    height: 100%;
+    overflow: hidden;
 }
 
 .error{
@@ -110,4 +110,27 @@ h1{
 
 p{
     margin: 20px;
+}
+
+
+@media (max-width: 600px){
+    .game-btn{
+        height: 150px;
+        width: 150px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .game-btn{
+        height: 100px;
+        width: 100px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
 }
