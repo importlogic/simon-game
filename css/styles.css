@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: #011f3f;
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fef2bf;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container-fluid{
+    padding: 30px 10px;
+}
+
+.btn{
+    height: 180px;
+    width: 180px;
+    margin: 20px;
+    border-width: .7rem;
+    border-color: black;
+    border-radius: 2rem;
+}
+.btn:hover{
+    border-color: black;
+}
+.btn:focus{
+    border-color: black;
+}
+
+.green{
+    background-color: green;
+}
+.green:hover{
+    background-color: green;
+}
+.green:focus{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+.red:hover{
+    background-color: red;
+}
+.red:focus{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.yellow:hover{
+    background-color: yellow;
+}
+.yellow:focus{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;;
+}
+.blue:hover{
+    background-color: blue;;
+}
+.blue:focus{
+    background-color: blue;;
+}
