@@ -107,3 +107,7 @@ h1{
 .blue:focus{
     background-color: blue;;
 }
+
+p{
+    margin: 20px;
+}
