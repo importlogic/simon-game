@@ -57,7 +57,6 @@ h1{
 }
 
 .press{
-    background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
     box-shadow: 0 9px #999;
@@ -117,6 +116,26 @@ p{
     .game-btn{
         height: 150px;
         width: 150px;
+        border-width: .5rem;
+        box-shadow: 0 7px #999;
+    }
+    .game-btn:focus{
+        box-shadow: 0 7px #999;
+    }
+    .game-btn:active{
+        box-shadow: 0 3px #666;
+        box-shadow: 0 7px #999;
+    } 
+    
+    .press{
+        box-shadow: 0 3px #666;
+        transform: translateY(4px);
+        box-shadow: 0 7px #999;
+        opacity: .7;
+    }
+    
+    .glow{
+        box-shadow: 0 0 40px white;
     }
 
     h1{
@@ -128,6 +147,26 @@ p{
     .game-btn{
         height: 100px;
         width: 100px;
+        border-width: .3rem;
+        box-shadow: 0 5px #999;
+    }
+    .game-btn:focus{
+        box-shadow: 0 5px #999;
+    }
+    .game-btn:active{
+        box-shadow: 0 1px #666;
+        box-shadow: 0 5px #999;
+    } 
+    
+    .press{
+        box-shadow: 0 1px #666;
+        transform: translateY(4px);
+        box-shadow: 0 5px #999;
+        opacity: .7;
+    }
+    
+    .glow{
+        box-shadow: 0 0 30px white;
     }
 
     h1{
