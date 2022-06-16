@@ -6,7 +6,12 @@ body{
     padding: 40px;
     font-family: 'Press Start 2P', cursive;
     color: #fef2bf;
-    overflow: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 .error{
