@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-
 body{
     background-color: #011f3f;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color: #fef2bf;
+    height: 100%;
+}
+
+.error{
+    background-color: red;
 }
 
 h1{
     font-size: 4rem;
-    color: #fef2bf;
-    font-family: 'Press Start 2P', cursive;
+    margin-top: 10px;
 }
 
 .container-fluid{
@@ -18,18 +23,49 @@ h1{
 }
 
 .btn{
+    margin: 30px;
+}
+.btn:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    box-shadow: 0 9px #999;
+    opacity: .7;
+}
+
+.game-btn{
     height: 180px;
     width: 180px;
     margin: 20px;
     border-width: .7rem;
     border-color: black;
     border-radius: 2rem;
+    box-shadow: 0 9px #999;
 }
-.btn:hover{
+.game-btn:hover{
     border-color: black;
 }
-.btn:focus{
+.game-btn:focus{
     border-color: black;
+    box-shadow: 0 9px #999;
+}
+.game-btn:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    box-shadow: 0 9px #999;
+    opacity: .7;
+}
+
+.press{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    box-shadow: 0 9px #999;
+    opacity: .7;
+}
+
+.glow{
+    box-shadow: 0 0 50px white;
 }
 
 .green{
